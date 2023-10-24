@@ -1,0 +1,5 @@
+migrations
+     dotnet ef migrations add init  -s ../WebApi   -c AppDbContext
+     dotnet ef database  update  -s ../WebApi   -c AppDbContext
+     dotnet ef migrations remove   -s ../WebApi   -c AppDbContext
+ 
